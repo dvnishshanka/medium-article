@@ -1,0 +1,74 @@
+body{
+  margin: 0px 0px;
+}
+
+
+#banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  background-position: center;
+  color: white ;
+  padding: 150px 0px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+#banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  margin: 0px auto;
+  width: 50%;
+}
+
+.container > h2 {
+    color: #A0A0A0;
+    font-weight: normal;
+}
+
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+background-image: linear-gradient(to top,rgb(213, 237, 213), lightBlue);
+}
+
+a {
+  text-decoration: none;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
